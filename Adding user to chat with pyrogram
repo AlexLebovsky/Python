@@ -3,10 +3,10 @@ from pyrogram import Client
 from pyrogram.raw import functions, types
 
 def Func():
-    clientName = XXXXXXXX #use int
+    clientName = XXXXXXXX #use int for one who's invited
     chat_id = -XXXXXXXXXXXXX #use int
 
-    app =  Client("XXXXXXXXX", api_id = XXXXXXX, api_hash = "VALUE")#the XXXXXXXXX is a user id who you are inviting
+    app =  Client("XXXXXXXXX", api_id = XXXXXXX, api_hash = "VALUE")#the XXXXXXXXX is your Telegram ID
     app.start()
     app.add_chat_members(chat_id, clientName)
     app.stop()#optional feature
